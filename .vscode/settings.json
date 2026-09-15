@@ -1,0 +1,25 @@
+{
+    // ===== 关闭自动补全：让提示不再自己弹出来 =====
+
+    // 打字时不自动弹出补全列表（关键设置）
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+
+    // 输入 . 或 -> 后也不自动弹（比如敲 obj. 时不自动列成员）
+    "editor.suggestOnTriggerCharacters": false,
+
+    // 关闭灰色幽灵文字式的行内补全（如果有插件提供的话）
+    "editor.inlineSuggest.enabled": false,
+
+    // 回车不再直接接受补全，而是正常换行
+    "editor.acceptSuggestionOnEnter": "off",
+
+    // Tab 键恢复为普通缩进，不参与任何补全
+    "editor.tabCompletion": "off",
+
+    // ===== 现状：补全完全关闭，安心自己敲代码 =====
+    // 如果以后想要回自动补全或某个召唤键，随时说一声就能改回来
+}
