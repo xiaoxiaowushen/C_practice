@@ -26,4 +26,3 @@ int main()
     }  while(guess != secret);
     printf("Bingo! You got it in %d tries.\n", tries);
     return 0;
-}
