@@ -16,10 +16,11 @@ int main(){
             }
         }
     }
+    //第 11~17 行  拿每个素数当筛子，把倍数划掉（填 0）  
 
-    for(i=2;i<maxNumber;i++){
-        if(isPrime[i]){
-            printf("%d\t",i);// %d 不能少；\t 是制表符，让数字对齐
+    for(i=2;i<maxNumber;i++){//i 从 2 走到 24
+        if(isPrime[i]){//第 i 格还是 1 吗？
+            printf("%d\t",i);//  是 → 打印 i
         }
     }
     printf("\n");// \n 是换行（反斜杠，不是正斜杠）
