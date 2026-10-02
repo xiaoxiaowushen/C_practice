@@ -10,7 +10,7 @@ int main(void){
     return 0;
 }
 
-void minmax(int a[],int len,int *max,int *min){//// 在数组 a 里找最小值和最大值
+void minmax(int a[],int len,int *max,int *min){// 在数组 a 里找最小值和最大值
 // 通过两个指针参数把结果【送回】调用者（C 只能 return 一个值，所以第二个用指针带出）
 
     int i;//定义整型变量i
