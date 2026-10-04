@@ -23,5 +23,4 @@ int main(void)
     char s1[] = "abc"; //正常的字符串输出 abc\0
     char s2[] = "abc ";//下面是abc \0 会多一个空格 然后strcmp比较的时候比较不上 多一个空格 在ascii码里一个' '空格 = 32 ；所以返回他们的差值 
     printf("%d\n",mycmp(s1,s2));
-    printf("%d\n",'a'-'A');
 }
