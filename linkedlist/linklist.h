@@ -13,5 +13,7 @@ Node* create_node(int val);         // 创建单个节点
 void list_append(Node **head, int val); // 尾部追加节点
 void list_print(Node *head);        // 遍历打印全部节点
 void list_free(Node *head);         // 释放全部节点
+Node *list_search(Node *head, int target);//查找节点
+void list_delete(Node **head, int target);//删除指定节点
 
 #endif
